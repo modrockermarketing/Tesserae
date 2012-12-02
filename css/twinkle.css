@@ -1,0 +1,28 @@
+#banner {
+	width: 500px;
+}
+
+#banner .tile {
+	display: inline-block;
+	float: left;
+	width: 500px;
+	height: 100px;
+	background-color: #444444;
+}
+
+#banner .tile .block {
+	display: inline-block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	background-color: #222222;
+}
+
+#banner .tile .block .info {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #FFFFFF;
+}
